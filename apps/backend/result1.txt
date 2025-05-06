@@ -1,0 +1,73 @@
+await retriever.invoke("pqr tech");
+
+-------------------------------------------------------------------------------------------------
+> backend@1.0.0 dev
+> npm run build && node dist/index.js
+
+
+> backend@1.0.0 build
+> tsc -b
+
+* [SIM=0.403] Retail managers unable to access ABC dashboard reports
+
+Role mapping for regional managers was missing in new dashboard tool. Roles created and assigned. [{"affectedUser":"rajiv.sharma","assignedTo":"manoj.sinha","assignmentGroup":"BI & Analytics","category":"software","majorIncident":"Accepted","number":"INC0012353","openedBy":"tanvi.singh","priority":"2-high","problem":"PRB0001380","resolvedBy":"manoj.sinha","service":"Executive Dashboard","serviceOffering":"Access Control","state":"closed","subCategory":"Role Mapping","updatedBy":"manoj.sinha","vendor":"PQR Tech Services","workNotes":"05/03/2025 14:05:40 - manoj.sinha \n Verified dashboard roles.\n Added missing regional manager group."}]
+* [SIM=0.393] Customer invoices showing incorrect tax in migrated system
+
+Tax configuration was still pointing to old region rates. Updated tax mapping in ABC's finance module. [{"affectedUser":"pooja.seth","assignedTo":"deepak.jain","assignmentGroup":"Finance Systems","category":"software","majorIncident":"Running","number":"INC0012350","openedBy":"rashmi.nair","priority":"2-high","problem":"PRB0001365","resolvedBy":"deepak.jain","service":"Billing & Invoicing","serviceOffering":"Tax Calculation Engine","state":"closed","subCategory":"Configuration Error","updatedBy":"deepak.jain","vendor":"Internal IT","workNotes":"05/03/2025 09:22:44 - deepak.jain \n Verified tax rules. Mapping error found.\n Updated region codes in tax config."}]
+result..................
+[
+  Document {
+    pageContent: 'Retail managers unable to access ABC dashboard reports\n' +
+      '\n' +
+      'Role mapping for regional managers was missing in new dashboard tool. Roles created and assigned.',
+    metadata: {
+      affectedUser: 'rajiv.sharma',
+      assignedTo: 'manoj.sinha',
+      assignmentGroup: 'BI & Analytics',
+      category: 'software',
+      majorIncident: 'Accepted',
+      number: 'INC0012353',
+      openedBy: 'tanvi.singh',
+      priority: '2-high',
+      problem: 'PRB0001380',
+      resolvedBy: 'manoj.sinha',
+      service: 'Executive Dashboard',
+      serviceOffering: 'Access Control',
+      state: 'closed',
+      subCategory: 'Role Mapping',
+      updatedBy: 'manoj.sinha',
+      vendor: 'PQR Tech Services',
+      workNotes: '05/03/2025 14:05:40 - manoj.sinha \n' +
+        ' Verified dashboard roles.\n' +
+        ' Added missing regional manager group.'
+    },
+    id: 'incident-9'
+  },
+  Document {
+    pageContent: 'Customer invoices showing incorrect tax in migrated system\n' +
+      '\n' +
+      "Tax configuration was still pointing to old region rates. Updated tax mapping in ABC's finance module.",
+    metadata: {
+      affectedUser: 'pooja.seth',
+      assignedTo: 'deepak.jain',
+      assignmentGroup: 'Finance Systems',
+      category: 'software',
+      majorIncident: 'Running',
+      number: 'INC0012350',
+      openedBy: 'rashmi.nair',
+      priority: '2-high',
+      problem: 'PRB0001365',
+      resolvedBy: 'deepak.jain',
+      service: 'Billing & Invoicing',
+      serviceOffering: 'Tax Calculation Engine',
+      state: 'closed',
+      subCategory: 'Configuration Error',
+      updatedBy: 'deepak.jain',
+      vendor: 'Internal IT',
+      workNotes: '05/03/2025 09:22:44 - deepak.jain \n' +
+        ' Verified tax rules. Mapping error found.\n' +
+        ' Updated region codes in tax config.'
+    },
+    id: 'incident-6'
+  }
+]

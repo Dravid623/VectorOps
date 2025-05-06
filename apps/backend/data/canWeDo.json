@@ -1,0 +1,43 @@
+[
+    {
+      "incidentType": "Cloud Provider Rate Limit Exceeded",
+      "relation": "ABC might hit AWS API Gateway or S3 rate limits during scaling; PQR has expertise in cloud debugging and throttling mitigation."
+    },
+    {
+      "incidentType": "SSL Certificate Expiry in Third-party Integration",
+      "relation": "No such incident reported yet, but PQR can detect and auto-renew certs in integrated vendor pipelines."
+    },
+    {
+      "incidentType": "DNS Propagation Delay After ABC Migration",
+      "relation": "Likely to happen post-domain change; PQR has tools to trace and speed up DNS resolution globally."
+    },
+    {
+      "incidentType": "Shadow IT Application Interference",
+      "relation": "Undocumented apps from XYZ may conflict with ABC services; PQR can run audits and isolate rogue apps."
+    },
+    {
+      "incidentType": "Data Inconsistency in Multi-Region Writes",
+      "relation": "ABC is scaling globally; no conflict yet, but PQR can resolve replication lag or CRDT mismatch."
+    },
+    {
+      "incidentType": "Unexpected Firewall Rules Blocking Internal Microservices",
+      "relation": "No incident filed, but PQR can diagnose internal egress traffic issues using NetFlow tracing."
+    },
+    {
+      "incidentType": "Billing Mismatch Due to Legacy SKU Mapping",
+      "relation": "Likely with price plan changes from XYZ to ABC; PQR can audit SKUs and realign them with billing models."
+    },
+    {
+      "incidentType": "Incident Correlation Failure in ITSM Pipeline",
+      "relation": "ServiceNow rules might fail to link related tickets post-migration; PQR can implement ML-based correlation."
+    },
+    {
+      "incidentType": "Data Leak from Misconfigured Object Storage",
+      "relation": "Not seen yet, but PQR has deep experience with IAM policies and cloud storage configs to prevent leaks."
+    },
+    {
+      "incidentType": "Localization/Internationalization Bugs in ABC Frontend",
+      "relation": "No language issues reported yet, but PQR can detect missing translation keys or locale-based bugs."
+    }
+  ]
+  

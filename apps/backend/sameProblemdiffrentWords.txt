@@ -1,0 +1,75 @@
+await retriever.invoke("Access issues in the ABC dashboard analytics arose due to missing role configurations, affecting regional store leaders until proper roles were defined and permissions granted.");
+
+=================================================================================================================================================================
+
+> backend@1.0.0 dev
+> npm run build && node dist/index.js
+
+
+> backend@1.0.0 build
+> tsc -b
+
+* [SIM=0.859] Retail managers unable to access ABC dashboard reports
+
+Role mapping for regional managers was missing in new dashboard tool. Roles created and assigned. [{"affectedUser":"rajiv.sharma","assignedTo":"manoj.sinha","assignmentGroup":"BI & Analytics","category":"software","majorIncident":"Accepted","number":"INC0012353","openedBy":"tanvi.singh","priority":"2-high","problem":"PRB0001380","resolvedBy":"manoj.sinha","service":"Executive Dashboard","serviceOffering":"Access Control","state":"closed","subCategory":"Role Mapping","updatedBy":"manoj.sinha","vendor":"PQR Tech Services","workNotes":"05/03/2025 14:05:40 - manoj.sinha \n Verified dashboard roles.\n Added missing regional manager group."}]
+* [SIM=0.723] User unable to generate daily sales report after migration
+
+Updated data access privileges for new roles in ABC system. [{"affectedUser":"sudhir.nair","assignedTo":"nisha.kapoor","assignmentGroup":"Reporting","category":"software","majorIncident":"Rejected","number":"INC0012348","openedBy":"sunil.kumar","priority":"2-high","problem":"PRB0001355","resolvedBy":"nisha.kapoor","service":"Reporting Engine","serviceOffering":"Access Provisioning","state":"closed","subCategory":"Role Permissions","updatedBy":"nisha.kapoor","vendor":"Internal IT","workNotes":"05/02/2025 11:45:22 - nisha.kapoor \n Investigating role-based access.\n 05/02/2025 12:35:18 - nisha.kapoor \n Granted access to relevant tables. User confirmed fix."}]
+result..................
+[
+  Document {
+    pageContent: 'Retail managers unable to access ABC dashboard reports\n' +
+      '\n' +
+      'Role mapping for regional managers was missing in new dashboard tool. Roles created and assigned.',
+    metadata: {
+      affectedUser: 'rajiv.sharma',
+      assignedTo: 'manoj.sinha',
+      assignmentGroup: 'BI & Analytics',
+      category: 'software',
+      majorIncident: 'Accepted',
+      number: 'INC0012353',
+      openedBy: 'tanvi.singh',
+      priority: '2-high',
+      problem: 'PRB0001380',
+      resolvedBy: 'manoj.sinha',
+      service: 'Executive Dashboard',
+      serviceOffering: 'Access Control',
+      state: 'closed',
+      subCategory: 'Role Mapping',
+      updatedBy: 'manoj.sinha',
+      vendor: 'PQR Tech Services',
+      workNotes: '05/03/2025 14:05:40 - manoj.sinha \n' +
+        ' Verified dashboard roles.\n' +
+        ' Added missing regional manager group.'
+    },
+    id: 'incident-9'
+  },
+  Document {
+    pageContent: 'User unable to generate daily sales report after migration\n' +
+      '\n' +
+      'Updated data access privileges for new roles in ABC system.',
+    metadata: {
+      affectedUser: 'sudhir.nair',
+      assignedTo: 'nisha.kapoor',
+      assignmentGroup: 'Reporting',
+      category: 'software',
+      majorIncident: 'Rejected',
+      number: 'INC0012348',
+      openedBy: 'sunil.kumar',
+      priority: '2-high',
+      problem: 'PRB0001355',
+      resolvedBy: 'nisha.kapoor',
+      service: 'Reporting Engine',
+      serviceOffering: 'Access Provisioning',
+      state: 'closed',
+      subCategory: 'Role Permissions',
+      updatedBy: 'nisha.kapoor',
+      vendor: 'Internal IT',
+      workNotes: '05/02/2025 11:45:22 - nisha.kapoor \n' +
+        ' Investigating role-based access.\n' +
+        ' 05/02/2025 12:35:18 - nisha.kapoor \n' +
+        ' Granted access to relevant tables. User confirmed fix.'
+    },
+    id: 'incident-4'
+  }
+]

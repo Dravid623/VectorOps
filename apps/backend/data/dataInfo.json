@@ -1,0 +1,22 @@
+{
+    "number": "incidend number, ex abc123",
+    "shortDescription": "what problem is in one line",
+    "resolutionCode": "who resolved",
+    "resolutionNotes": "whoever resolved this incident what they have done to resolve this",
+    "state": "open | closed | rejected",
+    "assignmentGroup": "which group was assigned to this incidend",
+    "priority": "1-high | 2-high | 3-medium | 4-low",
+    "assignedTo": "person who worked on this incidend",
+    "openedBy": "person who raise incidend",
+    "resolvedBy": "who resolved this",
+    "updatedBy": "who finally updated this",
+    "majorIncident": "Accepted | rejected | running",
+    "problem": "problem number, ex: PRB0000001",
+    "affectedUser": "problem faced by user",
+    "workNotes": "series of work flow. ex, 10/012025 10:36:46 - name of person who left a comment/update \n awaiting for an updated from some xyx team",
+    "category": "software | hardware",
+    "service": "name of service",
+    "serviceOffering": "what service we have offered to resolve this",
+    "subCategory": "any sub category if there",
+    "vendor": "vendor name"
+}

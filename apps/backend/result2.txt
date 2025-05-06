@@ -1,0 +1,75 @@
+await retriever.invoke("problem with ABC dashbord, i face issue during oprating role creation");
+
+------------------------------------------------------------------------------------------------
+
+> backend@1.0.0 dev
+> npm run build && node dist/index.js
+
+
+> backend@1.0.0 build
+> tsc -b
+
+* [SIM=0.659] Retail managers unable to access ABC dashboard reports
+
+Role mapping for regional managers was missing in new dashboard tool. Roles created and assigned. [{"affectedUser":"rajiv.sharma","assignedTo":"manoj.sinha","assignmentGroup":"BI & Analytics","category":"software","majorIncident":"Accepted","number":"INC0012353","openedBy":"tanvi.singh","priority":"2-high","problem":"PRB0001380","resolvedBy":"manoj.sinha","service":"Executive Dashboard","serviceOffering":"Access Control","state":"closed","subCategory":"Role Mapping","updatedBy":"manoj.sinha","vendor":"PQR Tech Services","workNotes":"05/03/2025 14:05:40 - manoj.sinha \n Verified dashboard roles.\n Added missing regional manager group."}]
+* [SIM=0.582] Login failure on migrated retail POS system
+
+Issue was due to a misconfigured SSO redirect URL in ABC environment. Updated config and retested successfully. [{"affectedUser":"kavita.jain","assignedTo":"rajesh.kumar","assignmentGroup":"Retail POS Migration Team","category":"software","majorIncident":"Accepted","number":"INC0012345","openedBy":"sneha.malik","priority":"2-high","problem":"PRB0001234","resolvedBy":"rajesh.kumar","service":"Retail POS","serviceOffering":"User Authentication Fix","state":"closed","subCategory":"Login Issues","updatedBy":"rajesh.kumar","vendor":"PQR Tech Services","workNotes":"04/30/2025 09:12:30 - rajesh.kumar \n Investigating SSO login issue.\n 04/30/2025 10:45:12 - rajesh.kumar \n Fixed redirect URL in config, retested with user."}]
+result..................
+[
+  Document {
+    pageContent: 'Retail managers unable to access ABC dashboard reports\n' +
+      '\n' +
+      'Role mapping for regional managers was missing in new dashboard tool. Roles created and assigned.',
+    metadata: {
+      affectedUser: 'rajiv.sharma',
+      assignedTo: 'manoj.sinha',
+      assignmentGroup: 'BI & Analytics',
+      category: 'software',
+      majorIncident: 'Accepted',
+      number: 'INC0012353',
+      openedBy: 'tanvi.singh',
+      priority: '2-high',
+      problem: 'PRB0001380',
+      resolvedBy: 'manoj.sinha',
+      service: 'Executive Dashboard',
+      serviceOffering: 'Access Control',
+      state: 'closed',
+      subCategory: 'Role Mapping',
+      updatedBy: 'manoj.sinha',
+      vendor: 'PQR Tech Services',
+      workNotes: '05/03/2025 14:05:40 - manoj.sinha \n' +
+        ' Verified dashboard roles.\n' +
+        ' Added missing regional manager group.'
+    },
+    id: 'incident-9'
+  },
+  Document {
+    pageContent: 'Login failure on migrated retail POS system\n' +
+      '\n' +
+      'Issue was due to a misconfigured SSO redirect URL in ABC environment. Updated config and retested successfully.',
+    metadata: {
+      affectedUser: 'kavita.jain',
+      assignedTo: 'rajesh.kumar',
+      assignmentGroup: 'Retail POS Migration Team',
+      category: 'software',
+      majorIncident: 'Accepted',
+      number: 'INC0012345',
+      openedBy: 'sneha.malik',
+      priority: '2-high',
+      problem: 'PRB0001234',
+      resolvedBy: 'rajesh.kumar',
+      service: 'Retail POS',
+      serviceOffering: 'User Authentication Fix',
+      state: 'closed',
+      subCategory: 'Login Issues',
+      updatedBy: 'rajesh.kumar',
+      vendor: 'PQR Tech Services',
+      workNotes: '04/30/2025 09:12:30 - rajesh.kumar \n' +
+        ' Investigating SSO login issue.\n' +
+        ' 04/30/2025 10:45:12 - rajesh.kumar \n' +
+        ' Fixed redirect URL in config, retested with user.'
+    },
+    id: 'incident-1'
+  }
+]
